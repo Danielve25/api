@@ -43,6 +43,9 @@ const ProductoSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  dataCategory:{
+    type: String,
+  },
 });
 
 // Creación y exportación del modelo
