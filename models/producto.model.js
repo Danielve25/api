@@ -29,13 +29,8 @@ const ProductoSchema = new mongoose.Schema({
     required: false,
     default: '',
   },
-  // Categoría del producto (postre, torta, nevado, etc)
-  categoria: {
-    type: String,
-    default: "",
-  },
   porciones: {
-    type: Number,
+    type: String,
     required: 'false',
   },
   // Fecha de creación de el producto
