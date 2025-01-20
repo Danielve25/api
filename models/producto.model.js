@@ -31,7 +31,7 @@ const ProductoSchema = new mongoose.Schema({
   },
   porciones: {
     type: String,
-    required: 'false',
+    required: true,
   },
   // Fecha de creación de el producto
   fechaCreacion: {
