@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 // Definición del esquema de la receta
 const ProductoSchema = new mongoose.Schema({
   // Nombre de la receta
-  Producto: {
+  producto: {
     type: String,
     required: true,
   },
